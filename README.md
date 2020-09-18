@@ -14,6 +14,12 @@ To run a server you need replace **your_server_ip** with IP of your server: loca
     TCP_IP = socket.gethostbyaddr("your_server_ip")[0]
 ```
 
+Also you may change server port:
+
+```python
+   TCP_PORT = 9001
+```
+
 To run server simply type in terminal:
 
 ```
