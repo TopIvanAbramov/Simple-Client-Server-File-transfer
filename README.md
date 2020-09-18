@@ -2,11 +2,11 @@
 
 There are two scripts: server.py and client.py
 
-Clien connect to server and start to send a file:
+Client connects to server and start to send a file:
 
-+ Send file name
-+ Send file size
-+ Send file in chunck of 512 b
++ Send the file name
++ Send the file size
++ Send the file in chunck of 512 b
 
 To run a server you need replace **your_server_ip** with IP of your server: localhost or Public IPv4 DNS of AWS instance
 
@@ -14,7 +14,7 @@ To run a server you need replace **your_server_ip** with IP of your server: loca
     TCP_IP = socket.gethostbyaddr("your_server_ip")[0]
 ```
 
-To run simply type in terminal:
+To run server simply type in terminal:
 
 ```
 python3 server.py
