@@ -6,7 +6,7 @@ Client connects to server and start to send a file:
 
 + Send the file name
 + Send the file size
-+ Send the file in chunck of 512 b
++ Send the file in chunks of 512 b
 
 To run a server you need replace **your_server_ip** with IP of your server: localhost or Public IPv4 DNS of AWS instance
 
